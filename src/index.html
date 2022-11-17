@@ -1,12 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Мой сайт</title>
+    <meta name="description" content="Это моя первая страница...">
+    <meta name="author" content="Andrey">
+    <meta name="robots" content="all">
+    <meta property="og:title" content="Это моя первая страница...">
+    <title>Vladimir - Веб-разработчик</title>
 </head>
-
 <body>
+    <header>
+        <nav>
+            <div class="logo">Vladimir</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Обо мне</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Прайс</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
     
+    <div class="main">
+        <div class="title_container">
+            <h1>Привет <br> Я Vladimir</h1>
+            <h4>Фулл стек веб-разработчик</h4>
+            <input type="submit" value="Обо мне">
+            <input type="submit" value="Мои работы">
+        </div>
+    </div>
+    
+    <div class="about">
+        <div class="about_container">
+            <h2>Обо мне</h2>
+            <div class="about_text">
+                <p class="about_text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores asperiores temporibus et ullam doloribus quibusdam maiores quo optio, voluptatem nam atque ut veritatis corporis ipsum fuga laborum in, nulla sint nobis accusantium molestiae, quod possimus. Reprehenderit nam, quod? Quaerat, eos, aperiam. Harum nulla voluptatum nam perferendis incidunt, explicabo aliquid nesciunt.</p>
+                <p class="about_text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores asperiores temporibus et ullam doloribus quibusdam maiores quo optio, voluptatem nam atque ut veritatis corporis ipsum fuga laborum in, nulla sint nobis accusantium molestiae, quod possimus. Reprehenderit nam, quod? Quaerat, eos, aperiam. Harum nulla voluptatum nam perferendis incidunt, explicabo aliquid nesciunt.</p>
+            </div>
+            <input type="submit" value="Скачать резюме">
+        </div>
+    </div>
+    
+    <div class="skills">
+        <div class="skills_container">
+            <h2>Что я умею</h2>
+            <div class="skills_item">
+                <img src="..." alt="">
+                <h3>Веб-дизайн</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+            </div>
+            <div class="skills_item">
+                <img src="..." alt="">
+                <h3>Разработка</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+            </div>
+            <div class="skills_item">
+                <img src="..." alt="">
+                <h3>CEO-Оптимизация</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+            </div>
+            <div class="skills_item">
+                <img src="..." alt="">
+                <h3>Маркетинг</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cases">
+        <div class="cases_container">
+            <h2>Кейсы</h2>
+            <p class="cases_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, libero.</p>
+            <img src="#" alt="Слайды">
+            <div class="cases_client">
+                <h4>CLIENT:</h4>
+                <p class="cases_client_name">Какая-то компания</p>
+                <h4>WEBSITE:</h4>
+                <a class="cases_client_link" href="https://google.com" target="_blank">https://somedomain.com</a>
+                <h4>Название проекта</h4>
+                <p class="cases_client_description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, consequuntur quasi aperiam impedit unde voluptates sint omnis et nobis repellat molestiae blanditiis consequatur, tempore explicabo eligendi. Quisquam vel, velit, quam, non explicabo consectetur fuga esse laudantium dolor officiis nesciunt alias quos odit debitis laborum amet harum illo, expedita culpa nemo!
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="calculator">
+        <div class="calculator_container">
+            <h2>Расчет стоимости</h2>
+            <form class="calculator_form" action="#">
+                <h4>ТИП САЙТА</h4>
+                <select name="site_type">
+                    <option value="site_type">Выберите пункт...</option>
+                </select>
+                <h4>ДИЗАЙН</h4>
+                <select name="site_design">
+                    <option value="site_design">Выберите пункт...</option>
+                </select>
+                <h4>АДАПТИВНОСТЬ</h4>
+                <select name="site_adapt">
+                    <option value="site_adapt">Выберите пункт...</option>
+                </select>
+            </form>
+            <div class="calculator_total">
+                <p class="calculator_total_time">Сроки</p>
+                <p class="calculator_total_number">0</p>
+                <p class="calculator_total_money">Стоимость</p>
+                <p class="calculator_total_number">0</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="statics">
+        <div class="statics_container">
+            <h2>Немного статистики</h2>
+            <div class="statics_happy">
+                <p class="statics_happy_number">120</p>
+                <p class="statics_happy_description">СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+            </div>
+            <div class="statics_hours">
+                <p class="statics_hours_number">4,600</p>
+                <p class="statics_hours_description">ЧАСОВ РАБОТЫ</p>
+            </div>
+            <div class="statics_projects">
+                <p class="statics_projects_number">340</p>
+                <p class="statics_projects_description">ПРОЕКТОВ ЗАВЕРШЕНО</p>
+            </div>
+            <div class="statics_rewards">
+                <p class="statics_rewards_number">23</p>
+                <p class="statics_rewards_description">НАГРАД ПОЛУЧЕНО</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="feedback">
+        <div class="feedback_container">
+            <h2>Отзывы</h2>
+            <img src="#" alt="photo">
+            <p class="feedback_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur tempora maiores voluptates eius dignissimos inventore.</p>
+            <p class="feedback_person">Михаил, Ген директор ПАО "Газпром"</p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="contacts">
+            <div class="contacts_container">
+                <h2>Мои контакты</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit pariatur porro placeat, quod, iusto fugit?</p>
+                <div class="contacts_communication">
+                    <img src="#" alt="Маркер">
+                    <p class="contacts_icons_adress">Санкт-Петербург <br> Невский проспект 11</p>
+                    
+                    <img src="#" alt="Письмо">
+                    <p class="contacts_icons_email"><a href="mailto:info@companyname.com">info@companyname.com</a></p>
+                    
+                    <img src="#" alt="Телефон">
+                    <p class="contacts_icons_tel"><a href=”tel:+79999999999”>+7(999)999-99-99</a></p>
+                </div>
+                <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+                <form class="contacts_form" action="#">
+                    <input type="text" placeholder="Имя">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" cols="20" rows="5" placeholder="Сообщение"></textarea>
+                    <input type="submit" value="Отправить">
+                </form>
+                <div class="contacts_icons">
+                    <a href="https://facebook.com" target="_blank"><img src="#" alt="Facebook"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="#" alt="Twitter"></a>
+                    <a href="https://google.com" target="_blank"><img src="#" alt="Google"></a>
+                    <a href="https://zumba4.github.io" target="_blank"><img src="#" alt="GitHub"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="#" alt="Instagram"></a>
+                    <a href="https://inbox.com" target="_blank"><img src="#" alt="Inbox"></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="map">
+            <div class="map_container">
+            
+            </div>
+        </div>
+        
+        <p class="footer_copyright">Copyright © 2022 Vladimir. Design by Web</p>
+    </footer>
 </body>
 </html>
